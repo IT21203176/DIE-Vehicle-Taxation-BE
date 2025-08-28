@@ -11,8 +11,8 @@ connectDB();
 const app = express();
 app.use(
   cors({
-    //origin: "https://recipe-app-frontend-eta-sage.vercel.app",
-    origin: "http://localhost:5173",
+    origin: "https://die-vehicle-taxation-fe.vercel.app",
+    //origin: "http://localhost:5173",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
